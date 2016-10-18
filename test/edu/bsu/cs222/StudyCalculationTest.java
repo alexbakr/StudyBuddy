@@ -5,30 +5,21 @@ import org.testng.Assert;
 
 public class StudyCalculationTest {
 
-    StudyCalculation calculation = new StudyCalculation();
-    ExtracurricularHourTotal extra = new ExtracurricularHourTotal();
+    StudyCalculation study = new StudyCalculation();
 
     @Test
-    public void testTwentyFourSeven() {
-        Revision revision = Revision.create()
-                .setSleep(0)
-                .build();
-        Assert.assertEquals(168, calculation.StudyCalculation(extra.extracurricularTotal(revision)));
-    }
+    public void testTwentyFourSeven() { Assert.assertEquals(168, study.StudyCalculation(0)); }
 
     @Test
     public void testSixHours() {
-        Revision revision = Revision.create()
-                .setSleep(6)
-                .build();
-        Assert.assertEquals(6, calculation.StudyCalculation(extra.extracurricularTotal(revision)));
+        Assert.assertEquals(6, study.StudyCalculation(162));
     }
 
     @Test
     public void testZero() {
-        Revision revision = Revision.create()
-                .setSleep(168)
-                .build();
-        Assert.assertEquals(0, calculation.StudyCalculation(extra.extracurricularTotal(revision)));
+        Assert.assertEquals(0, study.StudyCalculation(168));
     }
+
+    @Test
+    public void testBelowZero() { Assert.assertEquals(0, study.StudyCalculation(169)); }
 }

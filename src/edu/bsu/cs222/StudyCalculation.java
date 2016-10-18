@@ -5,6 +5,10 @@ public class StudyCalculation {
 
     public int StudyCalculation(int extracurricular) {
         int studyHours = hoursAWeek - extracurricular;
-        return studyHours;
+        if (studyHours <= 0) {
+            return 0;
+        } else {
+            return studyHours;
+        }
     }
 }
