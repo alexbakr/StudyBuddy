@@ -10,7 +10,7 @@ public class HourCalculation {
         int school = rev.school;
         int extra = rev.extra;
 
-        totalHours = sleep + work + food + school + extra;
+        totalHours = sleep + work + food + school + extra; //need to refactor this so it is more easily done
         return totalHours;
     }
 }
