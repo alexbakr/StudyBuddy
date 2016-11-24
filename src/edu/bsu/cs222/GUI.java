@@ -91,7 +91,7 @@ public class GUI extends Application{
         GridPane.setHalignment(labelWeeklyHours, HPos.CENTER);
 
         //Vertical Labels
-        sleepLabel = new Text("On average, how many hours \n" + "per day do you sleep?");
+        sleepLabel = new Text("On average,\n" + "how many hours \n" + "per day do you sleep?");
         foodLabel = new Text("On average, how many hours per \n" + "day do you take to eat?");
 
         //Buttons
