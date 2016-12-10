@@ -7,17 +7,17 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="932.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="782.0" layoutY="89.0" mnemonicParsing="false" text="Button" />
-      <TextArea layoutX="25.0" layoutY="59.0" prefHeight="82.0" prefWidth="292.0" />
-      <TextArea layoutX="25.0" layoutY="151.0" prefHeight="82.0" prefWidth="292.0" />
-      <TextArea layoutX="25.0" layoutY="246.0" prefHeight="82.0" prefWidth="292.0" />
-      <TextArea layoutX="25.0" layoutY="338.0" prefHeight="82.0" prefWidth="292.0" />
-      <TextField layoutX="489.0" layoutY="89.0" />
-      <TextField layoutX="489.0" layoutY="177.0" />
-      <TextField layoutX="489.0" layoutY="272.0" />
-      <TextField layoutX="489.0" layoutY="364.0" />
-      <Button layoutX="782.0" layoutY="177.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="782.0" layoutY="272.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="782.0" layoutY="364.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="789.0" layoutY="146.0" mnemonicParsing="false" text="Button" />
+      <TextArea layoutX="25.0" layoutY="105.0" prefHeight="82.0" prefWidth="292.0" text="Number of Hours per Day" />
+      <TextArea layoutX="25.0" layoutY="221.0" prefHeight="82.0" prefWidth="292.0" text="Number of Days per Week" />
+      <TextArea layoutX="25.0" layoutY="339.0" prefHeight="82.0" prefWidth="292.0" />
+      <TextArea layoutX="25.0" layoutY="470.0" prefHeight="82.0" prefWidth="292.0" />
+      <TextField layoutX="489.0" layoutY="146.0" />
+      <TextField layoutX="489.0" layoutY="247.0" />
+      <TextField layoutX="489.0" layoutY="365.0" />
+      <TextField layoutX="497.0" layoutY="496.0" />
+      <Button layoutX="789.0" layoutY="247.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="789.0" layoutY="365.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="789.0" layoutY="496.0" mnemonicParsing="false" text="Button" />
    </children>
 </Pane>
