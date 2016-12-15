@@ -5,13 +5,13 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="932.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="882.0" prefWidth="1272.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button layoutX="789.0" layoutY="146.0" mnemonicParsing="false" text="Button" />
-      <TextArea layoutX="25.0" layoutY="105.0" prefHeight="82.0" prefWidth="433.0" text="On average, how many hours per week do you spend at work?" />
-      <TextArea layoutX="25.0" layoutY="221.0" prefHeight="82.0" prefWidth="292.0" text="On average, how many hours per week do you spend in class?&quot;" />
-      <TextArea layoutX="25.0" layoutY="339.0" prefHeight="82.0" prefWidth="292.0" text="On average, how many hours per week are you spending on extra-curricular activities \n&quot; + &quot;(Ex. clubs, hanging out with friends, working out, etc.&quot;);" />
-      <TextArea layoutX="25.0" layoutY="470.0" prefHeight="82.0" prefWidth="292.0" />
+      <TextArea layoutX="14.0" layoutY="36.0" prefHeight="82.0" prefWidth="433.0" text="On average, how many hours per week do you spend at work?" />
+      <TextArea layoutX="32.0" layoutY="146.0" prefHeight="82.0" prefWidth="292.0" text="On average, how many hours per week do you spend in class?&quot;" />
+      <TextArea layoutX="32.0" layoutY="283.0" prefHeight="82.0" prefWidth="292.0" text="On average, how many hours per week are you spending on extra-curricular activities \n&quot; + &quot;(Ex. clubs, hanging out with friends, working out, etc.&quot;);" />
+      <TextArea layoutX="25.0" layoutY="414.0" prefHeight="82.0" prefWidth="292.0" text="On average, how many hours per day do you sleep?" />
       <TextField layoutX="489.0" layoutY="146.0" />
       <TextField layoutX="489.0" layoutY="247.0" />
       <TextField layoutX="489.0" layoutY="365.0" />
@@ -19,5 +19,7 @@
       <Button layoutX="789.0" layoutY="247.0" mnemonicParsing="false" text="Button" />
       <Button layoutX="789.0" layoutY="365.0" mnemonicParsing="false" text="Button" />
       <Button layoutX="789.0" layoutY="496.0" mnemonicParsing="false" text="Button" />
+      <TextArea layoutX="14.0" layoutY="512.0" prefHeight="116.0" prefWidth="405.0" text="On average, how many hours per day do you take to eat?" />
+      <TextArea layoutX="21.0" layoutY="646.0" prefHeight="145.0" prefWidth="391.0" />
    </children>
 </Pane>
