@@ -12,24 +12,24 @@
       <TextArea layoutX="30.0" layoutY="640.0" prefHeight="72.0" prefWidth="286.0" text="On average, how many hours per week do you spend in class?&quot;" wrapText="true" />
       <TextArea layoutX="30.0" layoutY="390.0" prefHeight="82.0" prefWidth="286.0" text="On average, how many hours per week are you spending on extra-curricular activities?" wrapText="true" />
       <TextArea layoutX="30.0" layoutY="172.0" prefHeight="72.0" prefWidth="286.0" text="On average, how many hours per day do you sleep?" wrapText="true" />
-      <TextField layoutX="992.0" layoutY="192.0" />
-      <TextField layoutX="992.0" layoutY="311.0" />
-      <TextField layoutX="992.0" layoutY="416.0" />
-      <TextField layoutX="992.0" layoutY="550.0" />
-      <Button layoutX="780.0" layoutY="776.0" mnemonicParsing="false" text="Add" />
+      <TextField fx:id="answer1" layoutX="992.0" layoutY="192.0" />
+      <TextField fx:id="answer2" layoutX="992.0" layoutY="311.0" />
+      <TextField fx:id="answer3" layoutX="992.0" layoutY="416.0" />
+      <TextField fx:id="answer4" layoutX="992.0" layoutY="550.0" />
+      <Button fx:id="add" layoutX="780.0" layoutY="776.0" mnemonicParsing="false" text="Add" />
       <TextArea layoutX="30.0" layoutY="270.0" prefHeight="82.0" prefWidth="286.0" text="On average, how many hours per day do you take to eat?" wrapText="true" />
       <TextField layoutX="406.0" layoutY="311.0" />
-      <Button layoutX="648.0" layoutY="990.0" mnemonicParsing="false" text="Reset" />
-      <Button layoutX="767.0" layoutY="192.0" mnemonicParsing="false" text="Multiply" />
-      <Button layoutX="767.0" layoutY="311.0" mnemonicParsing="false" text="Multiply" />
-      <TextField layoutX="992.0" layoutY="661.0" />
+      <Button fx:id="reset" layoutX="648.0" layoutY="990.0" mnemonicParsing="false" text="Reset" />
+      <Button fx:id="multiply1" layoutX="767.0" layoutY="192.0" mnemonicParsing="false" text="Multiply" />
+      <Button fx:id="multiply2" layoutX="767.0" layoutY="311.0" mnemonicParsing="false" text="Multiply" />
+      <TextField fx:id="answer5" layoutX="992.0" layoutY="661.0" />
       <TextField layoutX="406.0" layoutY="192.0" />
       <Label layoutX="667.0" layoutY="62.0" text="Click button to complete calculation" wrapText="true" />
-      <Button layoutX="763.0" layoutY="893.0" mnemonicParsing="false" text="Compute" />
+      <Button fx:id="compute" layoutX="763.0" layoutY="893.0" mnemonicParsing="false" text="Compute" />
       <Label layoutX="406.0" layoutY="62.0" text="Nuber of Hours Per Day" />
       <Label layoutX="992.0" layoutY="72.0" text="Nuber of Hours Per Week" />
-      <TextField layoutX="992.0" layoutY="776.0" />
-      <TextField layoutX="992.0" layoutY="893.0" />
+      <TextField fx:id="answer6" layoutX="992.0" layoutY="776.0" />
+      <TextField fx:id="answer7" layoutX="992.0" layoutY="893.0" />
       <TextArea layoutX="30.0" layoutY="755.0" prefHeight="72.0" prefWidth="286.0" text="Number of hours you spend on activities" wrapText="true" />
       <TextArea layoutX="30.0" layoutY="887.0" prefHeight="72.0" prefWidth="286.0" text="How many hour remain" wrapText="true" />
    </children>
