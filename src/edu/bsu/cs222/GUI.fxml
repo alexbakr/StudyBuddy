@@ -8,25 +8,27 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="899.0" prefWidth="1403.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextArea layoutX="14.0" layoutY="21.0" prefHeight="82.0" prefWidth="433.0" text="On average, how many hours per week do you spend at work?" wrapText="true" />
-      <TextArea layoutX="14.0" layoutY="151.0" prefHeight="82.0" prefWidth="240.0" text="On average, how many hours per week do you spend in class?&quot;" wrapText="true" />
-      <TextArea layoutX="14.0" layoutY="291.0" prefHeight="82.0" prefWidth="307.0" text="On average, how many hours per week are you spending on extra-curricular activities?" wrapText="true" />
-      <TextArea layoutX="14.0" layoutY="442.0" prefHeight="82.0" prefWidth="405.0" text="On average, how many hours per day do you sleep?" wrapText="true" />
-      <TextField layoutX="706.0" layoutY="150.0" />
-      <TextField layoutX="706.0" layoutY="283.0" />
-      <TextField layoutX="706.0" layoutY="394.0" />
-      <TextField layoutX="706.0" layoutY="483.0" />
+      <TextArea layoutX="30.0" layoutY="166.0" prefHeight="82.0" prefWidth="286.0" text="On average, how many hours per week do you spend at work?" wrapText="true" />
+      <TextArea layoutX="14.0" layoutY="771.0" prefHeight="82.0" prefWidth="240.0" text="On average, how many hours per week do you spend in class?&quot;" wrapText="true" />
+      <TextArea layoutX="30.0" layoutY="390.0" prefHeight="82.0" prefWidth="286.0" text="On average, how many hours per week are you spending on extra-curricular activities?" wrapText="true" />
+      <TextArea layoutX="30.0" layoutY="529.0" prefHeight="82.0" prefWidth="405.0" text="On average, how many hours per day do you sleep?" wrapText="true" />
+      <TextField layoutX="983.0" layoutY="176.0" />
+      <TextField layoutX="984.0" layoutY="259.0" />
+      <TextField layoutX="992.0" layoutY="374.0" />
+      <TextField layoutX="983.0" layoutY="493.0" />
       <Button layoutX="997.0" layoutY="539.0" mnemonicParsing="false" text="Calculate" />
       <Button layoutX="1020.0" layoutY="650.0" mnemonicParsing="false" text="Add" />
-      <TextArea layoutX="14.0" layoutY="775.0" prefHeight="73.0" prefWidth="405.0" text="On average, how many hours per day do you take to eat?" wrapText="true" />
+      <TextArea layoutX="30.0" layoutY="270.0" prefHeight="82.0" prefWidth="286.0" text="On average, how many hours per day do you take to eat?" wrapText="true" />
       <TextField layoutX="706.0" layoutY="696.0" />
       <Button layoutX="988.0" layoutY="457.0" mnemonicParsing="false" text="Reset" />
-      <Button layoutX="540.0" layoutY="119.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="540.0" layoutY="233.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="892.0" layoutY="239.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="892.0" layoutY="353.0" mnemonicParsing="false" text="Button" />
       <TextField layoutX="706.0" layoutY="796.0" />
-      <TextField layoutX="706.0" layoutY="598.0" />
-      <Label layoutX="764.0" layoutY="62.0" text="Nuber of Hours Per Week" />
-      <Button layoutX="554.0" layoutY="358.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="572.0" layoutY="524.0" mnemonicParsing="false" text="Button" />
+      <TextField layoutX="688.0" layoutY="473.0" />
+      <Label layoutX="764.0" layoutY="62.0" text="Click button to complete calculation" wrapText="true" />
+      <Button layoutX="906.0" layoutY="478.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="924.0" layoutY="644.0" mnemonicParsing="false" text="Button" />
+      <Label layoutX="520.0" layoutY="62.0" text="Nuber of Hours Per Day" />
+      <Label layoutX="992.0" layoutY="72.0" text="Nuber of Hours Per Week" />
    </children>
 </Pane>
