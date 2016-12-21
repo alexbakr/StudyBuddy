@@ -8,29 +8,29 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1051.0" prefWidth="1429.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextArea layoutX="30.0" layoutY="509.0" prefHeight="82.0" prefWidth="286.0" text="On average, how many hours per week do you spend at work?" wrapText="true" />
-      <TextArea layoutX="30.0" layoutY="640.0" prefHeight="72.0" prefWidth="286.0" text="On average, how many hours per week do you spend in class?&quot;" wrapText="true" />
-      <TextArea layoutX="30.0" layoutY="390.0" prefHeight="82.0" prefWidth="286.0" text="On average, how many hours per week are you spending on extra-curricular activities?" wrapText="true" />
-      <TextArea layoutX="30.0" layoutY="172.0" prefHeight="72.0" prefWidth="286.0" text="On average, how many hours per day do you sleep?" wrapText="true" />
+      <TextArea fx:id="question4" layoutX="30.0" layoutY="509.0" prefHeight="82.0" prefWidth="286.0" text="On average, how many hours per week do you spend at work?" wrapText="true" />
+      <TextArea fx:id="question5" layoutX="30.0" layoutY="640.0" prefHeight="72.0" prefWidth="286.0" text="On average, how many hours per week do you spend in class?&quot;" wrapText="true" />
+      <TextArea fx:id="question3" layoutX="30.0" layoutY="390.0" prefHeight="82.0" prefWidth="286.0" text="On average, how many hours per week are you spending on extra-curricular activities?" wrapText="true" />
+      <TextArea fx:id="question1" layoutX="30.0" layoutY="172.0" prefHeight="72.0" prefWidth="286.0" text="On average, how many hours per day do you sleep?" wrapText="true" />
       <TextField fx:id="answer1" layoutX="992.0" layoutY="192.0" />
       <TextField fx:id="answer2" layoutX="992.0" layoutY="311.0" />
       <TextField fx:id="answer3" layoutX="992.0" layoutY="416.0" />
-      <TextField fx:id="answer4" layoutX="992.0" layoutY="550.0" />
-      <Button fx:id="add" layoutX="780.0" layoutY="776.0" mnemonicParsing="false" text="Add" />
-      <TextArea layoutX="30.0" layoutY="270.0" prefHeight="82.0" prefWidth="286.0" text="On average, how many hours per day do you take to eat?" wrapText="true" />
-      <TextField layoutX="406.0" layoutY="311.0" />
+      <TextField fx:id="answer4" layoutX="992.0" layoutY="535.0" />
+      <Button fx:id="add" layoutX="780.0" layoutY="792.0" mnemonicParsing="false" text="Add" />
+      <TextArea fx:id="question2" layoutX="30.0" layoutY="270.0" prefHeight="82.0" prefWidth="286.0" text="On average, how many hours per day do you take to eat?" wrapText="true" />
+      <TextField fx:id="input2" layoutX="406.0" layoutY="311.0" />
       <Button fx:id="reset" layoutX="648.0" layoutY="990.0" mnemonicParsing="false" text="Reset" />
       <Button fx:id="multiply1" layoutX="767.0" layoutY="192.0" mnemonicParsing="false" text="Multiply" />
       <Button fx:id="multiply2" layoutX="767.0" layoutY="311.0" mnemonicParsing="false" text="Multiply" />
-      <TextField fx:id="answer5" layoutX="992.0" layoutY="661.0" />
-      <TextField layoutX="406.0" layoutY="192.0" />
+      <TextField fx:id="answer5" layoutX="983.0" layoutY="661.0" />
+      <TextField fx:id="input1" layoutX="406.0" layoutY="192.0" />
       <Label layoutX="667.0" layoutY="62.0" text="Click button to complete calculation" wrapText="true" />
-      <Button fx:id="compute" layoutX="763.0" layoutY="893.0" mnemonicParsing="false" text="Compute" />
+      <Button fx:id="compute" layoutX="763.0" layoutY="900.0" mnemonicParsing="false" text="Compute" />
       <Label layoutX="406.0" layoutY="62.0" text="Nuber of Hours Per Day" />
       <Label layoutX="992.0" layoutY="72.0" text="Nuber of Hours Per Week" />
-      <TextField fx:id="answer6" layoutX="992.0" layoutY="776.0" />
-      <TextField fx:id="answer7" layoutX="992.0" layoutY="893.0" />
-      <TextArea layoutX="30.0" layoutY="755.0" prefHeight="72.0" prefWidth="286.0" text="Number of hours you spend on activities" wrapText="true" />
-      <TextArea layoutX="30.0" layoutY="887.0" prefHeight="72.0" prefWidth="286.0" text="How many hour remain" wrapText="true" />
+      <TextField fx:id="answer6" layoutX="992.0" layoutY="792.0" />
+      <TextField fx:id="answer7" layoutX="992.0" layoutY="908.0" />
+      <TextArea fx:id="question6" layoutX="30.0" layoutY="755.0" prefHeight="72.0" prefWidth="286.0" text="Number of hours you spend on activities" wrapText="true" />
+      <TextArea fx:id="question8" layoutX="30.0" layoutY="887.0" prefHeight="72.0" prefWidth="286.0" text="How many hour remain" wrapText="true" />
    </children>
 </Pane>
