@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class GUI extends Application{
+public class GUI extends Application {
 
     private final ExecutorService executorService = Executors.newCachedThreadPool();
     private Text labelDailyHours;
